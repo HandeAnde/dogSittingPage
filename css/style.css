@@ -3,15 +3,19 @@ body{
     color: black;
     background-size: cover;
     background-position: 0 -150px;
+    
 }
 
 .container{
     width: auto !important;
 }
 
-header{
+.bgOpacity{
     opacity: 0.6;
     padding: 10px;]
+}
+.navbar{
+    padding: 0 30px;
 }
 
 .nav-link{
@@ -46,4 +50,8 @@ hr{
 .bot-but{
     opacity: 0.6;
     margin: 0 auto;
+}
+
+.card{
+    margin-top: 20px;
 }
