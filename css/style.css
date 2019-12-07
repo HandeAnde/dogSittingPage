@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img/bgBW.jpg");
+    color: black;
+    background-size: cover;
+    background-position: 0 -150px;
+}
+
+.container{
+    width: auto !important;
+}
+
+header{
+    opacity: 0.6;
+    padding: 10px;]
+}
+
+.nav-link{
+    color: black;
+}
+
+li {
+    float: left;
+  }
+
+  .alignCenter{
+      text-align: center;
+  }
+
+  .jumbo{
+      padding: 10px 30px;
+      background-color: white;
+      display: inline-block;
+  }
+
+hr{
+    margin: 0;
+}
+
+.btnBottom{
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+}
+
+.bot-but{
+    opacity: 0.6;
+    margin: 0 auto;
+}
