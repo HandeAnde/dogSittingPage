@@ -43,7 +43,7 @@ hr{
 .btnBottom{
     position: absolute;
     left: 0;
-    top: 90%;
+    top: 80%;
     width: 100%;
 }
 
@@ -54,4 +54,11 @@ hr{
 
 .card{
     margin-top: 20px;
+}
+
+.bgNeeded {
+    padding: 50px;
+      background-color: white;
+      display: inline-block;
+      opacity: 1;
 }
