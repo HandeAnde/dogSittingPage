@@ -71,6 +71,7 @@ hr{
 .media {
     padding: 20px 0;
 }
-.media-body{
+
+.bgWhiteSolid{
     background-color: white;
 }
