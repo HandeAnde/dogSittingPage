@@ -5,6 +5,11 @@ body{
     background-position: 0 -100px;
 }
 
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: "Lobster", cursive; }
 .container{
     width: auto !important;
 }
@@ -23,7 +28,7 @@ body{
     padding: 8px 0 0;
 }
 
-li {
+header li {
     float: left;
   }
 
@@ -74,4 +79,8 @@ hr{
 
 .bgWhiteSolid{
     background-color: white;
+}
+
+form{
+    font-size: small;
 }

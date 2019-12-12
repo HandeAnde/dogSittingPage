@@ -34,10 +34,21 @@
                                     <div class="container">
                                     <div>
                                         <ul class="navbar-nav navbar-text">
-                                            <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                                            <li class="nav-item active"><a class="nav-link" href="../index.html"> Home</a></li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  Services
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <a class="dropdown-item" href="../services.html">All Servies</a>
+                                                  <div class="dropdown-divider"></div>
+                                                  <a class="dropdown-item" href="groomingDetails.html">Dog Grooming</a>
+                                                  <a class="dropdown-item" href="walkingDetails.html">Dog Walking</a>
+                                                  <a class="dropdown-item" href="boardingDetails.html">Dog Boarding</a>
+                                                </div>
+                                              </li>
+                                            <li class="nav-item"><a class="nav-link" href="../Contact.html">Contact</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="../reviews.html">Reviews</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -49,19 +60,50 @@
                 </div>
         </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 bgWhiteSolid">
-                    <img src="../img/grooming.jpg" class="d-flex mr-3 img-thumbnail">
-                </div>
-                <div class="col-md-8">
+        
+        <div class="container bgNeeded">
+           
+   
+       <div class="row row-content align-items-center">
 
+        <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="../img/boarding.jpg" alt="Doggy Vacation" />
+                    <div class="media-body align-self-center bgWhiteSolid">
+                        <h3>Daily - $20</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="row row-content align-items-center">
+
+        <div class="col media-body bgWhiteSolid">
+            <h3>Weekly - $120</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <img class="d-flex ml-3 img-thumbnail" src="../img/boarding.jpg" alt="Doggy Vacation" />
+    </div>
+
+    <div class="row row-content align-items-center">
+        <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail " src="../img/boarding.jpg" alt="Doggy Vacation">
+                    <div class="media-body align-self-center bgWhiteSolid">
+                        <h3>Monthly - $450</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
 
-
+    </div>
 
     </body>
-</html>
+    </html>
