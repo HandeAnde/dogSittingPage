@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 232, 204);
+}
+
+/* .navMoveDown{
+    padding-top: 550px;
+    background-image: url("../img/bg2.jpg");
+    position: fixed;
+    background-repeat: no-repeat; 
+     top: 0;
+     height: 550px;
+     background-size: cover;
+     background-position: 0 -200px;
+} */
+
+.navMoveDown{
+    padding: 80px 50px 0;
+}
+
+.navbar {
+    background-color: #00cf67;
+    opacity: 0.4;
+}
+
+.bgImg{
+    height: 700px;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 5em 2em;
+}
