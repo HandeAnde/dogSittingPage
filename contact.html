@@ -97,9 +97,9 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="telNum" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <label for="telNum" class="col-md-2 col-form-label">Phone</label>
                             <div class="col">
-                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                                <input type="tel" class="form-control" name="telNum" placeholder="Phone number" />
                             </div>
                         </div>
                         <div class="form-group row">
@@ -129,19 +129,40 @@
                         </div>
                         <div class="form-group row">
                             <div class="offset-md-10 col-md-10">
-                                <button type="submit" class="btn btn-outline-dark">Sumbit</button>
+                                    <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#submitModal">
+                                            Submit
+                                          </button>
                             </div>
                         </div>
                     </form>
                 </div> 
            </div><hr />
 
+           <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">You hit submit...good for you!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>As you can see, it doesn't really do anything right now. One day it will. I'm just waiting to show my brilliance till i actually learn it.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <div class="row p-2">
                     <div class="col-12 p-2 alignCenter">
                             <h4>Meet our staff</h4>
                             <hr />
                         </div>
-            <div class="row">
+            <div class="row m-auto">
                 <div class="card m-2" style="width: 18rem;">
                     <img src="img/courtney.jpg" class="card-img-top" alt="...">
                     <div class="card-body">

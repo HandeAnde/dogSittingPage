@@ -12,6 +12,9 @@ body {
     width: auto !important;
 }
 
+
+
+
 .bgOpacity{
     opacity: 0.7;
     padding: 10px;
@@ -81,4 +84,29 @@ hr{
 
 form{
     font-size: small;
+}
+
+.table tr td{
+    border-radius: 5px;
+}
+
+.nitem{ 
+    background-color: white !important;
+    opacity: 1 !important;
+    background-opacity: 1 !important;
+}
+
+.modal-header {
+    background-color: #257754;
+    color: moccasin;
+}
+
+.modal-body {
+    background-color: #f54242;
+    color: moccasin;
+}
+
+.modal-footer{
+    background-color: orchid;
+    color: moccasin;
 }
